@@ -77,9 +77,13 @@ p, ul, ol { max-width: 42rem; }
 .hero .lede { max-width: 34rem; }
 
 /* ---------- figures ---------- */
-figure { margin: 1.8rem 0; }
-figure img { border-radius: var(--r); }
+figure { margin: 1.8rem 0; max-width: 42rem; }
+figure img { border-radius: var(--r); max-height: 30rem; width: auto; }
 figcaption { font-size: 0.87rem; color: var(--muted); margin-top: 0.55rem; max-width: 42rem; }
+
+/* inside a .shots grid the cropped tiles set their own size */
+.shots figure { max-width: none; }
+.shots img { max-height: none; }
 
 .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin: 1.6rem 0; }
 .shots figure { margin: 0; }

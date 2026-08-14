@@ -49,3 +49,9 @@ string across the four HTML files, `sitemap.xml` and `robots.txt`.
   which this repository does not control. It is kept for the sitemap reference.
 - `FAQPage` markup will not produce rich results. Google limited those to recognised government
   and health sites in 2023. The markup stays because it describes the page correctly.
+
+## Editing the stylesheet
+
+GitHub Pages caches assets, so a changed `style.css` will not reach returning visitors on its
+own. Bump the version on the stylesheet link in all four HTML files when you edit it:
+`href="style.css?v=2"` becomes `?v=3`.

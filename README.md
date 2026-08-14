@@ -1,44 +1,51 @@
-# Nation Furnace — Burnaby business profile
+# Nation Furnace — Burnaby
 
-Static business-profile site for **Nation Furnace Heating & Air Conditioning HVAC Ltd.**
+Static site for **Nation Furnace Heating & Air Conditioning HVAC Ltd.**
 (4170 Still Creek Dr Suite 200, Burnaby, BC V5C 4T5).
 
 Live at: https://supermanservicesca.github.io/nationfurnace/
 
-## What this is
-
-A NAP (name / address / phone) citation property plus four pages of supporting content.
-No build step, no framework, no external requests — plain HTML and one stylesheet.
+No build step, no framework, no external requests. Plain HTML, one stylesheet, WebP images.
 
 | File | Purpose |
 |---|---|
-| `index.html` | Business profile, NAP block, hours, `HVACBusiness` JSON-LD |
-| `services.html` | The nine services, each linking to its page on nationheating.ca |
-| `service-areas.html` | 39 Burnaby neighbourhoods, split north / south |
-| `faq.html` | Five boiler questions taken from Google's "People also ask", with `FAQPage` JSON-LD |
-| `style.css` | Single stylesheet, light and dark via `prefers-color-scheme` |
-| `sitemap.xml` / `robots.txt` | Discovery |
+| `index.html` | Home, contact details, `HVACBusiness` JSON-LD |
+| `services.html` | What the company works on |
+| `boilers.html` | Boiler work and the questions customers ask, `FAQPage` JSON-LD |
+| `service-areas.html` | Burnaby neighbourhoods, north / east / south |
+| `img/` | Job photos from the client's content library |
 
-## Source of the data
+## Where the content came from
 
-Every NAP value comes from the client's NAP record in the Superman Links CRM
-(`client_nap_locations` row `ab78f741-ce0f-494c-b903-d673a154470d`), which was filled from the
-client's own NAP sheet on 2026-08-14. Socials come from `client_brand`. Geo comes from the
-linked Google Business Profile record.
+NAP values come from the client's record in the Superman Links CRM
+(`client_nap_locations` row `ab78f741-ce0f-494c-b903-d673a154470d`). Socials come from
+`client_brand`. Geo comes from the linked Google Business Profile record. Photos come from
+`content_assets` for the same client.
 
-**If the NAP changes in the CRM, it must be changed here too.** There is no sync.
+**The NAP does not sync. If it changes in the CRM, change it here too.**
+
+## Copy that needs a tradesperson's eye
+
+The boiler answers on `boilers.html` were drafted by someone who is not an HVAC technician.
+They avoid prices and specific figures on purpose. Anyone from the company should feel free to
+correct them.
+
+## Photos
+
+Three images in the client's content library were **rejected** during the build and must not be
+used here: a screenshot of an Instagram post by another company (Eatons Heating, Coquitlam), a
+screenshot of a Google image result carrying a copyright notice, and a letterboxed phone
+screenshot. Check any new image against the original before adding it.
 
 ## Updating the canonical URL
 
 Every canonical, `og:url`, sitemap entry and JSON-LD `@id` uses the absolute base
 `https://supermanservicesca.github.io/nationfurnace/`. If the site moves, find and replace that
-string across `index.html`, `services.html`, `service-areas.html`, `faq.html`, `sitemap.xml` and
-`robots.txt`.
+string across the four HTML files, `sitemap.xml` and `robots.txt`.
 
 ## Known limits
 
-- `robots.txt` here sits at `/nationfurnace/robots.txt`. Crawlers read the one at the domain root,
-  which this repository does not control. The file is kept for the sitemap reference only.
-- `FAQPage` markup will not produce rich results. Google restricted FAQ rich results to
-  recognised government and health sites in 2023. The markup stays because it is valid and
-  describes the page correctly.
+- `robots.txt` sits at `/nationfurnace/robots.txt`. Crawlers read the one at the domain root,
+  which this repository does not control. It is kept for the sitemap reference.
+- `FAQPage` markup will not produce rich results. Google limited those to recognised government
+  and health sites in 2023. The markup stays because it describes the page correctly.

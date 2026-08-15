@@ -1,0 +1,21 @@
+name: build check
+
+# The HTML in this repo is generated from site.config.json. Editing a page by
+# hand works until the next build silently reverts it, so this fails the push
+# when the committed files no longer match the config.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Files must match site.config.json
+        run: node build.mjs --check

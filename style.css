@@ -112,6 +112,29 @@ table.hours th { color: var(--muted); font-weight: 500; }
 ul.areas { columns: 4 10rem; column-gap: 1.6rem; list-style: none; padding: 0; margin: 1rem 0; font-size: 0.96rem; max-width: none; }
 ul.areas li { padding: 0.14rem 0; break-inside: avoid; }
 
+ul.cities {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  max-width: 46rem;
+}
+ul.cities a {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 0.4rem 0.85rem;
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.94rem;
+}
+ul.cities a:hover { border-color: var(--brand); color: var(--brand); }
+
+.spaced { margin-top: 1.8rem; }
+
 ul.tick { list-style: none; padding: 0; }
 ul.tick li { padding: 0.22rem 0 0.22rem 1.3rem; position: relative; }
 ul.tick li::before { content: "—"; position: absolute; left: 0; color: var(--brand); }

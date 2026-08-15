@@ -1,0 +1,294 @@
+{
+  "site": {
+    "baseUrl": "https://supermanservicesca.github.io/nationfurnace/",
+    "cssVersion": 3,
+    "lang": "en-CA",
+    "lastmod": "2026-08-15"
+  },
+
+  "business": {
+    "crmClientId": "d1e4aa5d-e754-4671-a0e0-9d72df1ce143",
+    "crmNapLocationId": "ab78f741-ce0f-494c-b903-d673a154470d",
+    "legalName": "Nation Furnace Heating & Air Conditioning HVAC Ltd.",
+    "shortName": "Nation Furnace",
+    "kicker": "HEATING &amp; AIR CONDITIONING · BURNABY",
+    "schemaType": "HVACBusiness",
+    "trade": "HVAC",
+    "city": "Burnaby",
+    "region": "BC",
+    "regionLong": "British Columbia",
+    "foundedYear": 2003,
+    "foundedDate": "2003-05-21",
+    "founder": "Dino Gerami",
+    "phone": "(604) 299-5006",
+    "phoneHref": "+16042995006",
+    "phoneSchema": "+1-604-299-5006",
+    "email": "info@nationheating.ca",
+    "street": "4170 Still Creek Dr Suite 200",
+    "postalCode": "V5C 4T5",
+    "country": "CA",
+    "geo": { "lat": 49.2603112, "lng": -123.0127214 },
+    "mapsUrl": "https://maps.google.com/?cid=9463418027746310235",
+    "mainSite": "https://nationheating.ca/burnaby",
+    "mainSiteLabel": "nationheating.ca",
+    "rating": "5.0",
+    "priceRange": "$$",
+    "paymentSchema": "Debit, American Express, Cash, Cheque, Invoicing, Mastercard, Visa",
+    "paymentPlain": "Debit, Visa, Mastercard, Amex, cash, cheque, invoicing",
+    "hoursLabel": "Monday to Sunday",
+    "hoursPlain": "8:00 AM – 8:00 PM",
+    "hoursOpen": "08:00",
+    "hoursClose": "20:00",
+    "hoursDays": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "hoursShort": "8am to 8pm",
+    "social": [
+      { "label": "Facebook",  "url": "https://www.facebook.com/NationHeatingAndCooling/" },
+      { "label": "Instagram", "url": "https://www.instagram.com/nationfurnace/" },
+      { "label": "X",         "url": "https://x.com/nationheating" },
+      { "label": "YouTube",   "url": "https://www.youtube.com/@nationfurnaceheatingaircon3950" },
+      { "label": "LinkedIn",  "url": "https://www.linkedin.com/company/nation-heating-cooling" },
+      { "label": "Pinterest", "url": "https://ca.pinterest.com/nationheatingburnaby/" }
+    ]
+  },
+
+  "home": {
+    "title": "Nation Furnace — HVAC in Burnaby since 2003",
+    "description": "Burnaby HVAC company. Furnaces, boilers, heat pumps, air conditioning, hot water and duct work for homes and commercial buildings. Open 8am to 8pm, seven days.",
+    "h1": "Heating and cooling in Burnaby since 2003",
+    "lede": "We install and repair furnaces, boilers, heat pumps, air conditioning and hot water systems in houses and commercial buildings across Burnaby.",
+    "heroImage": "furnace-tankless",
+    "intro": [
+      "Dino Gerami started the company in Burnaby in 2003, and we've worked out of the same city ever since.",
+      "Burnaby housing isn't one thing. There are post-war houses where the heating has been rebuilt two or three times over, and there are towers going up around Metrotown and Brentwood that were designed around the equipment we fit new. A furnace swap in a 1950s basement usually means working around whatever ductwork the last few owners left behind. That's a different afternoon than a heat pump on a new build."
+    ],
+    "shotsHeading": "What we work on",
+    "shotsIntro": "Heating, cooling, hot water and ventilation, as service calls, repairs or full installs. The breakdown is on {{servicesLink}}.",
+    "shots": ["furnace-install", "hp-a", "wall-boiler"],
+    "commercialHeading": "Commercial work too",
+    "commercial": "Rooftop units, make-up air, and the heating plant in strata and light industrial buildings. Still Creek and the Lake City industrial area are close by, so a good share of the commercial work is within a few minutes of the shop.",
+    "commercialImage": "rooftop-unit",
+    "facts": [
+      { "value": "2003",   "label": "Year we started" },
+      { "value": "12",     "label": "Cities covered" },
+      { "value": "7 days", "label": "8am to 8pm" },
+      { "value": "5.0",    "label": "Google rating" }
+    ],
+    "contactHeading": "Where to find us",
+    "contactIntro": "The office is on Still Creek Drive. Someone answers the phone seven days a week between 8am and 8pm."
+  },
+
+  "services": {
+    "slug": "services.html",
+    "nav": "What we do",
+    "title": "What we do — Nation Furnace, Burnaby",
+    "description": "Furnaces, boilers, heat pumps, gas fireplaces, air conditioning, hot water and duct cleaning. Repairs and installs across Burnaby.",
+    "h1": "What we do",
+    "lede": "Heating, cooling, hot water and ventilation. Any of it as a service call, a repair, or a full replacement.",
+    "ogImage": "furnace-open",
+    "groups": [
+      {
+        "heading": "Furnaces",
+        "body": [
+          "The bulk of our winter. Ignition faults, blower motors, cracked heat exchangers, and the annual service that catches most of it before December. When a furnace is past saving we handle the swap, including whatever the old ductwork needs to make the new unit breathe properly.",
+          "We install Ducane, Coleman and Lennox equipment, among others. More on {{link:https://nationheating.ca/furnace|furnace work}}."
+        ],
+        "image": "furnace-open",
+        "caption": "Panel off on a new install: blower, dual PVC flues, gas flex line."
+      },
+      {
+        "heading": "Boilers",
+        "body": [
+          "Hydronic systems, radiators and in-floor heat. Pressure loss, circulation pumps, controls that have drifted, and full replacements when a unit is finished. A good share of Burnaby heats with hot water rather than forced air, so there's {{featureLink}}."
+        ]
+      },
+      {
+        "heading": "Heat pumps",
+        "body": [
+          "One unit that heats in winter and cools in summer, which is why they have taken off here. We install and service inverter mini-splits and ducted systems, and we'll tell you honestly whether your house suits one before you spend the money."
+        ],
+        "shots": ["hp-d", "ac-condenser"]
+      },
+      {
+        "heading": "Air conditioning",
+        "body": [
+          "Installs, seasonal start-ups and repairs. Try to book the service before the first real heat arrives rather than during it. The whole trade gets buried in the same week. See {{link:https://nationheating.ca/air-conditioning|air conditioning}}."
+        ]
+      },
+      {
+        "heading": "Gas fireplaces",
+        "body": [
+          "Pilot and ignition faults, glass, log sets, and new inserts. Run a fireplace that has sat all summer once in the fall, before you need it. Better to find a dead pilot in October than in a cold snap."
+        ],
+        "image": "fireplace",
+        "caption": "Gas insert, ceramic logs, herringbone firebox."
+      },
+      {
+        "heading": "Hot water",
+        "body": [
+          "Tanks and tankless both. Tanks are usually thermostats, elements, sediment, or a leak that has been ignored for a while. Tankless units are happier on a service schedule than left alone until they quit.",
+          "We fit Navien and Noritz units regularly. More on {{link:https://nationheating.ca/tankless-water-heater|tankless water heaters}}."
+        ],
+        "image": "tankless",
+        "caption": "Navien tankless, PEX runs and PVC venting."
+      },
+      {
+        "heading": "Air ducts and dryer vents",
+        "body": [
+          "Supply and return duct cleaning for houses and commercial units, and dryer vent cleaning. A restricted dryer vent shows up as longer drying times well before it becomes a fire risk. If the dryer has got slow, that's the reason to call."
+        ]
+      },
+      {
+        "heading": "Commercial",
+        "body": [
+          "Rooftop package units, make-up air, and the heating plant in strata and light industrial buildings. Much of that work sits close to the shop."
+        ]
+      }
+    ],
+    "schemaList": [
+      { "name": "Furnace service, repair and installation", "url": "https://nationheating.ca/furnace" },
+      { "name": "Boiler service, repair and installation", "url": "https://nationheating.ca/boiler/" },
+      { "name": "Heat pump service, repair and installation", "url": "https://nationheating.ca/heat-pump" },
+      { "name": "Gas fireplace service, repair and installation", "url": "https://nationheating.ca/fireplace/" },
+      { "name": "Air conditioning service, repair and installation", "url": "https://nationheating.ca/air-conditioning" },
+      { "name": "Hot water tank service, repair and installation", "url": "https://nationheating.ca/hot-water-tank/" },
+      { "name": "Tankless water heater service, repair and installation", "url": "https://nationheating.ca/tankless-water-heater" },
+      { "name": "Air duct cleaning", "url": "https://nationheating.ca/air-duct-cleaning/" },
+      { "name": "Dryer vent cleaning", "url": "https://nationheating.ca/dryer-vent-cleaning/" }
+    ]
+  },
+
+  "feature": {
+    "slug": "boilers.html",
+    "nav": "Boilers",
+    "title": "Boiler repair and replacement in Burnaby — Nation Furnace",
+    "description": "Boiler service, repair and replacement in Burnaby. Pressure loss, circulation faults and controls, plus straight answers on lifespan and repair versus replace.",
+    "h1": "Boilers",
+    "linkText": "more on boiler work here",
+    "lede": "Plenty of Burnaby heats with hot water rather than forced air. Radiators in the older houses, in-floor in the newer ones. Boiler work is its own trade, and we do it.",
+    "ogImage": "boiler-b",
+    "intro": [
+      "A boiler system is a loop. Water gets heated, a pump pushes it around the house, it gives up its heat at the radiators or the floor, and it comes back. When something goes wrong, the loop is either leaking, not circulating properly, or not getting heated in the first place. Working out which of those you have needs somebody standing in front of it, not a phone description."
+    ],
+    "image": "boiler-b",
+    "caption": "Wall-mount boiler with a storage tank, copper manifold, in a Burnaby utility room.",
+    "listHeading": "What we get called for",
+    "list": [
+      "Pressure that keeps dropping and needs topping up",
+      "No fire, or a burner that lights and drops out",
+      "Some radiators hot, others cold",
+      "Kettling, banging or a new hum",
+      "Leaks at fittings or from the pressure relief valve",
+      "Full replacement when the unit is finished"
+    ],
+    "afterList": "We also cover boiler repair on our main site's {{link:https://nationheating.ca/boiler-repair-burnaby|Burnaby boiler page}}.",
+    "qaHeading": "Questions we get",
+    "questions": [
+      {
+        "q": "What are the most common boiler problems?",
+        "a": [
+          "Pressure that won't stay up, a unit that won't fire or won't hold a flame, some radiators hot while others stay cold, new noise, and leaks at fittings or the relief valve.",
+          "All of those are symptoms. Low pressure tells you water is leaving the system; it doesn't tell you where. That's why the first visit is a diagnosis rather than a repair."
+        ],
+        "schema": "Pressure that keeps dropping, a unit that will not fire or will not hold a flame, some radiators hot while others stay cold, new noise, and leaks at fittings or the pressure relief valve. Each of those is a symptom rather than a cause, so the first visit is a diagnosis."
+      },
+      {
+        "q": "How long does a boiler last?",
+        "a": [
+          "That depends more on how it has been looked after than on the badge. Two identical units installed the same year can be in completely different shape a decade later, and the one that got serviced isn't usually the one giving trouble.",
+          "For a straight answer on your own boiler we'd want to see the model, the state of the heat exchanger, and what has been done to it since it went in."
+        ],
+        "schema": "That depends more on how it has been looked after than on the badge. Two identical units installed the same year can be in completely different shape a decade later, and the one that got serviced is not usually the one giving trouble. A straight answer on a specific boiler means seeing the model, the state of the heat exchanger, and what has been done to it since it went in."
+      },
+      {
+        "q": "Is it worth replacing a 20 year old boiler?",
+        "a": ["Age alone doesn't settle it. Four things do:"],
+        "bullets": [
+          "Are parts still available for it?",
+          "How does its efficiency compare with a current unit over a full winter?",
+          "Is the heat exchanger sound?",
+          "Is this the first repair, or the third in two years?"
+        ],
+        "after": ["Discontinued parts or a failed heat exchanger usually mean replacement. A controls fault on an otherwise sound unit usually means repair. We'll tell you which one you've got."],
+        "schema": "Age alone does not decide it. What matters is whether parts are still available, how its efficiency compares with a current unit over a full heating season, whether the heat exchanger is sound, and whether this is the first repair or the third. Discontinued parts or a failed heat exchanger usually mean replacement."
+      },
+      {
+        "q": "What does a new boiler cost?",
+        "a": [
+          "It comes down to the heat output the house actually needs, the type of boiler, whether the existing venting and gas line suit the new unit, and how much of the current system we can reuse.",
+          "Two houses on the same Burnaby street can differ substantially on venting alone. We quote after seeing the house, in writing, with what's included spelled out."
+        ],
+        "schema": "It is set by the heat output the house needs, the type of boiler, whether the existing venting and gas line suit the new unit, and how much of the current system can be reused. Two houses on the same street can differ substantially on venting alone, so the number comes from a site visit."
+      },
+      {
+        "q": "What does a boiler repair cost?",
+        "a": [
+          "A service call, then parts and labour. Nobody can price the parts before the fault is found, so the diagnosis comes first and the repair price follows it.",
+          "Two things to ask any company you call: is the service call credited against the repair if you go ahead, and is there a callback charge if the same fault comes back."
+        ],
+        "schema": "A service call, then parts and labour. Parts cannot be priced before the fault is found, so the diagnosis comes first. Ask whether the service call is credited against the repair, and whether there is a callback charge if the same fault returns."
+      }
+    ]
+  },
+
+  "areas": {
+    "slug": "service-areas.html",
+    "nav": "Where we work",
+    "title": "Nation Furnace service areas — Burnaby, Lower Mainland",
+    "description": "The Burnaby neighbourhoods we cover across the north, east and south of the city, plus the eleven other Lower Mainland cities we take work in.",
+    "h1": "Where we work",
+    "lede": "We run out of Still Creek Drive and cover Burnaby north, east and south, plus eleven other cities across the Lower Mainland.",
+    "ogImage": "hp-a",
+    "intro": [
+      "The parts of the city are not the same job. Older stock keeps us on radiators and heating that has been rebuilt more than once. Around Metrotown and Brentwood there is a lot of newer building with equipment we fit from scratch. Both keep us busy, in different months."
+    ],
+    "neighbourhoodGroups": [
+      {
+        "heading": "Burnaby North",
+        "items": ["Brentwood Park","Burnaby North","Capitol Hill","Cariboo","Central Burnaby North","Forest Hills","Government Road","Lake City Industrial","Montecito","Oakdale","Parkcrest","Simon Fraser Hills","Simon Fraser University","Sperling-Duthie","Sullivan Heights","Vancouver Heights","Westridge","Willingdon Heights"]
+      },
+      {
+        "heading": "Burnaby East",
+        "items": ["Burnaby East","East Burnaby","Edmonds","The Crest"]
+      },
+      {
+        "heading": "Burnaby South",
+        "items": ["Big Bend","Buckingham Heights","Burnaby Hospital","Burnaby Lake","Burnaby South","Central Park","Deer Lake","Deer Lake Place","Forest Glen","Garden Village","Greentree Village","Highgate","Metrotown","Oaklands","South Slope","Suncrest","Upper Deer Lake"]
+      }
+    ],
+    "midImage": "hp-a",
+    "midCaption": "Heat pump going in off a back deck, Burnaby.",
+    "citiesHeading": "The rest of the Lower Mainland",
+    "citiesIntro": "Burnaby is home, but the vans get out. Each of these has its own page on our main site.",
+    "cities": [
+      { "name": "Vancouver",       "url": "https://nationheating.ca/vancouver" },
+      { "name": "North Vancouver", "url": "https://nationheating.ca/north-vancouver/" },
+      { "name": "West Vancouver",  "url": "https://nationheating.ca/west-vancouver/" },
+      { "name": "New Westminster", "url": "https://nationheating.ca/new-westminster" },
+      { "name": "Coquitlam",       "url": "https://nationheating.ca/coquitlam/" },
+      { "name": "Port Coquitlam",  "url": "https://nationheating.ca/port-coquitlam/" },
+      { "name": "Port Moody",      "url": "https://nationheating.ca/port-moody/" },
+      { "name": "Richmond",        "url": "https://nationheating.ca/richmond/" },
+      { "name": "Delta",           "url": "https://nationheating.ca/delta/" },
+      { "name": "Surrey",          "url": "https://nationheating.ca/surrey" },
+      { "name": "Langley",         "url": "https://nationheating.ca/langley" }
+    ],
+    "outro": [
+      { "heading": "Not on either list?", "body": ["Call anyway. The boundary is a rough guide rather than a rule, and it costs nothing to ask."] },
+      { "heading": "When to book", "body": ["Winter fills up with heating calls and the cooling calls all land in the same week the first real heat does. If what you need is a service rather than a repair, booking it outside those two stretches gets you a better appointment than waiting for something to fail in January."] }
+    ]
+  },
+
+  "images": {
+    "furnace-tankless": { "w": 1073, "h": 1400, "alt": "Lennox furnace and Noritz tankless water heater installed together in a utility closet" },
+    "furnace-install":  { "w": 1071, "h": 1281, "alt": "Ducane high-efficiency gas furnace installed in a Burnaby basement with PVC flue pipes and a condensate pump", "caption": "Ducane high-efficiency furnace, basement install, PVC venting and condensate pump." },
+    "furnace-open":     { "w": 1065, "h": 1400, "alt": "High-efficiency gas furnace with the front panel off, showing the blower, dual PVC flue pipes and yellow gas flex line" },
+    "hp-a":             { "w": 1104, "h": 1400, "alt": "TOSOT inverter heat pump condenser on a concrete pad beside a residential deck", "caption": "TOSOT inverter heat pump, set on a pad off the deck." },
+    "hp-d":             { "w": 1120, "h": 1400, "alt": "TOSOT inverter heat pump condenser mounted on a concrete pad against green siding", "caption": "TOSOT inverter condenser, pad-mounted against the wall." },
+    "wall-boiler":      { "w": 800,  "h": 573,  "alt": "Navien wall-mounted boiler with copper piping and circulation pump in an unfinished basement", "caption": "Navien wall-mount boiler, copper manifold, circulation pump." },
+    "boiler-b":         { "w": 1097, "h": 1400, "alt": "Newly installed wall-mounted boiler beside a large storage water heater tank with a copper pipe manifold" },
+    "ac-condenser":     { "w": 1050, "h": 1400, "alt": "Residential air conditioning condenser on a concrete pad beside house siding with insulated refrigerant lines", "caption": "Straight AC condenser with insulated line set into the wall." },
+    "tankless":         { "w": 1049, "h": 1400, "alt": "Navien tankless water heater mounted on a plywood wall with blue and red PEX lines and PVC venting" },
+    "fireplace":        { "w": 1170, "h": 869,  "alt": "Lit gas fireplace insert with ceramic logs in a black surround with herringbone brick firebox" },
+    "rooftop-unit":     { "w": 1170, "h": 1353, "alt": "Lennox commercial rooftop package unit installed on a flat roof", "caption": "Lennox rooftop package unit on a flat roof." }
+  }
+}
